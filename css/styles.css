@@ -2,9 +2,76 @@ body {
   max-width: 320px;
   margin: auto;
   background: #ddd;
+  text-align: center ;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+header{
+  background-image: url(../img/bg-bleu.jpg) ;
+  background-size: cover;
+  padding: 40px;
+  border-top: 5px solid #060E17;
+}
+
+.box-title {
+padding: 10px 30px;
+background: #215fa5e0;
+text-align: center;
+margin-bottom: 30px;
+}
+
+.cta-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}s
+
+.slogan {
+  font-size: 20px;
+}
+
+.cta-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cta {
+  color: #060E17;
+  background: #E3F4FF;
+  padding: 10px 20px;
+  margin: 10px 20px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.cta-dark {
+  color: #E3F4FF;
+  background: #060E17;
+}
+.section-light {
+    padding: 40px;
+    text-align: center;
+}
+main {
+  background: #E3F4FF
+}
+.section-dark {
+  background: #060E17;
+  color: #E3F4FF;
+}
+.card {
+  color: #060E17;
+  background: #E3F4FF;
+  padding: 40px;
+  margin: 10px 0;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  text-align: left;
 }
